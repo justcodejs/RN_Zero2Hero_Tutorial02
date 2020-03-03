@@ -31,7 +31,9 @@ yarn install
 
 
 # 2 - Run the application
+# For iOS, please make sure you run the pod install command as shown below.
 
+cd ios && pod install && cd ..
 npx react-native run-ios
 or 
 npx react-native run-android
